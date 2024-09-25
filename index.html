@@ -197,6 +197,199 @@
     </tbody>
 </table>
 
+<table border="1" style="width:100%; text-align:center; border-collapse:collapse;">
+    <caption>p-values for the comparison regarding the size, in bold when statistically significant (α=0.05) against SLIM and with an * when the deflate version is better (lower) than the baseline.</caption>
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Algorithm</th>
+            <th>100</th>
+            <th>250</th>
+            <th>500</th>
+            <th>750</th>
+            <th>900</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">yatch</td>
+            <td>SLIM*1SIG</td>
+            <td>0.3803</td>
+            <td>0.9966</td>
+            <td>0.8139</td>
+            <td>0.4186</td>
+            <td>0.0861</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td>0.1517</td>
+            <td>0.8439</td>
+            <td>0.9829</td>
+            <td>0.5692</td>
+            <td>0.1517</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>1.370e-14 *</b></td>
+            <td><b>1.573e-10 *</b></td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td rowspan="3">airfoil</td>
+            <td>SLIM*1SIG</td>
+            <td><b>0.0002 *</b></td>
+            <td>0.9795</td>
+            <td>1.0</td>
+            <td>0.8742</td>
+            <td>0.3642</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td><b>0.0005 *</b></td>
+            <td>0.2007</td>
+            <td>0.9659</td>
+            <td>0.8607</td>
+            <td>0.4513</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>1.370e-14 *</b></td>
+            <td><b>4.235e-14 *</b></td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td rowspan="3">concrete_slump</td>
+            <td>SLIM*1SIG</td>
+            <td>0.0917</td>
+            <td>0.9966</td>
+            <td>0.9966</td>
+            <td>0.6105</td>
+            <td>0.0779</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td>0.2733</td>
+            <td>0.8742</td>
+            <td>1.0</td>
+            <td>0.8708</td>
+            <td>0.2496</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>1.370e-14 *</b></td>
+            <td><b>2.280e-08 *</b></td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td rowspan="3">concrete_strength</td>
+            <td>SLIM*1SIG</td>
+            <td><b>1.054e-13 *</b></td>
+            <td><b>0.0008 *</b></td>
+            <td>0.7907</td>
+            <td>0.794</td>
+            <td>0.1123</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td><b>7.589e-13 *</b></td>
+            <td><b>0.0029 *</b></td>
+            <td>0.7097</td>
+            <td>0.8742</td>
+            <td>0.0716</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>1.368e-14 *</b></td>
+            <td><b>1.370e-14 *</b></td>
+            <td><b>1.370e-14 *</b></td>
+            <td>1.0</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td rowspan="3">ppb</td>
+            <td>SLIM*1SIG</td>
+            <td><b>0.0031 *</b></td>
+            <td>0.7096</td>
+            <td>1.0</td>
+            <td>0.9284</td>
+            <td>0.1976</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td><b>0.0057 *</b></td>
+            <td>0.6717</td>
+            <td>1.0</td>
+            <td>0.9624</td>
+            <td>0.5405</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>1.369e-14 *</b></td>
+            <td><b>1.370e-14 *</b></td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td rowspan="3">bioav</td>
+            <td>SLIM*1SIG</td>
+            <td><b>1.562e-08 *</b></td>
+            <td>0.8406</td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>0.7001</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td><b>3.983e-08 *</b></td>
+            <td><b>0.0049 *</b></td>
+            <td>0.5692</td>
+            <td>0.7874</td>
+            <td>0.7417</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>1.370e-14 *</b></td>
+            <td><b>1.370e-14 *</b></td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td rowspan="3">ld50</td>
+            <td>SLIM*1SIG</td>
+            <td>0.7547</td>
+            <td>1.0</td>
+            <td>0.9012</td>
+            <td><b>0.0104</b></td>
+            <td><b>0.0104</b></td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td>0.8674</td>
+            <td>1.0</td>
+            <td>0.7224</td>
+            <td><b>0.0104</b></td>
+            <td><b>0.0104</b></td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>1.800e-05 *</b></td>
+            <td><b>0.0104 *</b></td>
+            <td>1.0</td>
+            <td>1.0</td>
+            <td>1.0</td>
+        </tr>
+    </tbody>
+</table>
+
+
 
 </body>
 </html>
