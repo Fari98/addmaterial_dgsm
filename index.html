@@ -3,5 +3,114 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+<table border="1" style="width:100%; text-align:center; border-collapse:collapse;">
+    <caption>p-values for the comparison on the test set, in bold when statistically significant(α=0.05) against SLIM and with an * when the deflate version is better(lower) than the baseline.</caption>
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Algorithm</th>
+            <th>100</th>
+            <th>250</th>
+            <th>500</th>
+            <th>750</th>
+            <th>900</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">yatch</td>
+            <td>SLIM*1SIG</td>
+            <td><b>4.211e-05</b></td>
+            <td>0.1722</td>
+            <td><b>0.0167 *</b></td>
+            <td><b>0.0275 *</b></td>
+            <td><b>0.0387 *</b></td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td><b>0.0009</b></td>
+            <td>0.5692</td>
+            <td>0.1722</td>
+            <td>0.1224</td>
+            <td>0.4643</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>2.285e-13</b></td>
+            <td><b>2.338e-08</b></td>
+            <td>0.0831</td>
+            <td>0.2604</td>
+            <td><b>0.0081 *</b></td>
+        </tr>
+        <tr>
+            <td rowspan="3">airfoil</td>
+            <td>SLIM*1SIG</td>
+            <td><b>2.776e-12</b></td>
+            <td><b>0.0387</b></td>
+            <td><b>0.0062 *</b></td>
+            <td><b>7.145e-06 *</b></td>
+            <td><b>6.172e-07 *</b></td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td><b>3.880e-06</b></td>
+            <td><b>0.0112</b></td>
+            <td>0.0757</td>
+            <td><b>0.0001 *</b></td>
+            <td><b>7.537e-05 *</b></td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>3.477e-14</b></td>
+            <td><b>0.0002</b></td>
+            <td>0.4854</td>
+            <td>0.9148</td>
+            <td>0.4591</td>
+        </tr>
+        <tr>
+            <td rowspan="3">concrete_slump</td>
+            <td>SLIM*1SIG</td>
+            <td>0.7482</td>
+            <td>0.4748</td>
+            <td>0.2984</td>
+            <td>0.3803</td>
+            <td>0.7224</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td>0.2789</td>
+            <td>0.794</td>
+            <td>0.6781</td>
+            <td>0.4908</td>
+            <td>0.7547</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td>
+            <td><b>0.0004</b></td>
+            <td>0.3399</td>
+            <td>0.9898</td>
+            <td>0.5349</td>
+            <td>0.3897</td>
+        </tr>
+        <tr>
+            <td rowspan="3">concrete_strength</td>
+            <td>SLIM*1SIG</td>
+            <td><b>9.081e-06</b></td>
+            <td><b>0.0142</b></td>
+            <td>0.1722</td>
+            <td>0.3711</td>
+            <td>0.3486</td>
+        </tr>
+        <tr>
+            <td>SLIM*1NORM</td>
+            <td><b>0.0073</b></td>
+            <td>0.4908</td>
+            <td>0.385</td>
+            <td>0.3399</td>
+            <td>0.3486</td>
+        </tr>
+        <tr>
+            <td>SLIM+2SIG</td
+
 </body>
 </html>
